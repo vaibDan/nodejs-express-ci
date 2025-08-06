@@ -1,5 +1,5 @@
 ARG NODE_VERSION=16.x
-FROM node:${NODE_VERSION}-slim
+FROM node:${NODE_VERSION}-alpine
 
 WORKDIR /app
 
