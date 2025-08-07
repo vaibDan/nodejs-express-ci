@@ -22,7 +22,7 @@ jobs:
     # Defines the matrix strategy for running jobs across multiple Node.js versions
     strategy:
       matrix:
-        node-version: [ 18, 20]
+        node-version: [  20, 22 ]
         # Runs the job for each major Node.js version, using node:${{ matrix.node-version }}-alpine
       fail-fast: false
       # Continues running other matrix jobs even if one fails, ensuring full compatibility report
